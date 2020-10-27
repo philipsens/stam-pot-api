@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6af78a3a-3d49-4a54-b972-82c0684cae2f" name="Default Changelist" comment="" />
+    <list default="true" id="6af78a3a-3d49-4a54-b972-82c0684cae2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +19,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -141,6 +153,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergi\Documents\Stam\stam-pot-api" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -163,7 +180,8 @@
       <workItem from="1602356776356" duration="14038000" />
       <workItem from="1602371542407" duration="456000" />
       <workItem from="1602432180869" duration="12713000" />
-      <workItem from="1603822445414" duration="1603000" />
+      <workItem from="1603822445414" duration="2142000" />
+      <workItem from="1603824896834" duration="1656000" />
     </task>
     <servers />
   </component>
@@ -171,6 +189,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="721" key="#Deployment" timestamp="1603824603314">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="552" y="721" key="#Deployment/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1603824603314" />
     <state x="552" y="1251" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602359788004">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
