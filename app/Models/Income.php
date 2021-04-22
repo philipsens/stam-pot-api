@@ -12,6 +12,7 @@ class Income extends Model
     protected $keyType = 'string';
     protected $fillable = ['date', 'amount'];
     protected $hidden = ['created_at', 'updated_at'];
+    protected $dates = ['created_at', 'updated_at'];
 
     public function customer()
     {

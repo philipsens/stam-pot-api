@@ -58,7 +58,9 @@ class TransactionController extends Controller
      */
     public function show(Customer $customer)
     {
-        return $customer->transactions()->with('customer', 'product')->get()->sortByDesc('date')->values();
+        return $customer->transactions()->with('customer', 'product')->get()
+            ->where('date', '>', Carbon::yesterday())
+            ->sortByDesc('date')->values();
     }
 
     /**

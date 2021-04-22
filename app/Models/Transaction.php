@@ -12,6 +12,7 @@ class Transaction extends Model
     protected $keyType = 'string';
     protected $fillable = ['id', 'customer_id', 'product_id', 'date', 'amount'];
     protected $hidden = ['created_at', 'updated_at'];
+    protected $dates = ['created_at', 'updated_at'];
 
     public function customer()
     {
