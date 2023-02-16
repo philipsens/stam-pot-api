@@ -41,6 +41,11 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+/* https://stackoverflow.com/questions/30873773/laravel5-chdir-no-such-file-or-directory-errno-2 */
+$app->bind('path.public', function() {
+    return base_path() . '/';
+});
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

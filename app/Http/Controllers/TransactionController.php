@@ -20,7 +20,9 @@ class TransactionController extends Controller
      */
     public function index()
     {
-        return Transaction::all()->sortByDesc('date')->values()->load('customer', 'product');
+        return Transaction::all()
+            ->where('date', '>', Carbon::now()->subMonth())
+            ->sortByDesc('date')->values()->load('customer', 'product');
     }
 
     /**
@@ -59,7 +61,7 @@ class TransactionController extends Controller
     public function show(Customer $customer)
     {
         return $customer->transactions()->with('customer', 'product')->get()
-            ->where('date', '>', Carbon::yesterday())
+            ->where('date', '>', Carbon::now()->subDay())
             ->sortByDesc('date')->values();
     }
 
